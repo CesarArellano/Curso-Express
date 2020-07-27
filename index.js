@@ -37,7 +37,7 @@ app.get('/user',(req,res) =>{
     lastname: "Arellano"
   });
 });
-
+// Utilizamos Postman para probar métodos HTTP
 app.post('/user/:userId',(req,res) =>{
   console.log(req.params);
   console.log(req.body);
